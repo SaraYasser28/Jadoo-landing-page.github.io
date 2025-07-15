@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         planes.forEach((plane, index) => {
             const speed = (index + 1) * 0.3;
-            plane.style.transform = `translateX(${rate * speed}px) rotate(-10deg)`;
+            plane.style.transform = `translateX(${rate * speed}px)`;
         });
     });
 
